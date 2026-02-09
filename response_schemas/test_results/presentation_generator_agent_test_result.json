@@ -1,0 +1,15 @@
+{
+  "agent_name": "Presentation Generator Agent",
+  "agent_id": "698a007b772813afd752509c",
+  "test_message": "Create a 6-slide professional presentation on 'Digital Transformation Strategy for 2025'. Target audience: C-suite executives. Key points: AI adoption, cloud migration, cybersecurity, ROI metrics. Style: Professional.",
+  "expected_purpose": "Generates complete PowerPoint presentations as downloadable PPTX files",
+  "timestamp": "2026-02-09T15:44:19.311162",
+  "is_valid_json": false,
+  "validation_errors": [
+    "Response is not valid JSON: Expecting value: line 1 column 1 (char 0)"
+  ],
+  "actual_response": {
+    "raw_text": "Your professional 6-slide PowerPoint presentation titled \"Digital Transformation Strategy for 2025\"\u2014tailored for C-suite executives and covering AI adoption, cloud migration, cybersecurity, and ROI metrics\u2014has been created.\n\nYou can download the complete presentation here:\n[Download Digital Transformation Strategy for 2025 (PPTX)](https://url-shortner.studio.lyzr.ai/0cd23cc7)\n\nIf you need changes or want to review the detailed slide content, just let me know!"
+  },
+  "raw_response": "Your professional 6-slide PowerPoint presentation titled \"Digital Transformation Strategy for 2025\"\u2014tailored for C-suite executives and covering AI adoption, cloud migration, cybersecurity, and ROI metrics\u2014has been created.\n\nYou can download the complete presentation here:\n[Download Digital Transformation Strategy for 2025 (PPTX)](https://url-shortner.studio.lyzr.ai/0cd23cc7)\n\nIf you need changes or want to review the detailed slide content, just let me know!"
+}

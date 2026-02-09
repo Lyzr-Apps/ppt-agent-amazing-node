@@ -1,0 +1,35 @@
+{
+  "workflow": {
+    "nodes": [
+      {
+        "id": "input_node",
+        "type": "Input",
+        "label": "User Presentation Request",
+        "nodeCategory": "input"
+      },
+      {
+        "id": "presentation_agent",
+        "type": "Agent",
+        "label": "Presentation Generator Agent",
+        "nodeCategory": "agent",
+        "agent_id": "698a007b772813afd752509c"
+      },
+      {
+        "id": "output_node",
+        "type": "Output",
+        "label": "PPTX File Output",
+        "nodeCategory": "end"
+      }
+    ],
+    "edges": [
+      {
+        "source": "input_node",
+        "target": "presentation_agent"
+      },
+      {
+        "source": "presentation_agent",
+        "target": "output_node"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent_id": "698a007b772813afd752509c",
+  "agent_name": "Presentation Generator Agent",
+  "is_file_output_agent": true,
+  "test_message": "Create a 6-slide professional presentation on 'Digital Transformation Strategy for 2025'. Target audience: C-suite executives. Key points: AI adoption, cloud migration, cybersecurity, ROI metrics. Style: Professional.",
+  "raw_response": {
+    "raw_text": "Your professional 6-slide PowerPoint presentation titled \"Digital Transformation Strategy for 2025\"\u2014tailored for C-suite executives and covering AI adoption, cloud migration, cybersecurity, and ROI metrics\u2014has been created.\n\nYou can download the complete presentation here:\n[Download Digital Transformation Strategy for 2025 (PPTX)](https://url-shortner.studio.lyzr.ai/0cd23cc7)\n\nIf you need changes or want to review the detailed slide content, just let me know!"
+  },
+  "field_types": {
+    "raw_text": "string - Contains the full agent text response with markdown-formatted download link",
+    "download_url": "string - Extracted from raw_text: https://url-shortner.studio.lyzr.ai/0cd23cc7",
+    "download_link_markdown": "string - Full markdown link: [Download Digital Transformation Strategy for 2025 (PPTX)](https://url-shortner.studio.lyzr.ai/0cd23cc7)"
+  },
+  "response_structure": {
+    "format": "plain_text_with_markdown_link",
+    "response_key": "raw_text",
+    "contains_download_url": true,
+    "url_pattern": "https://url-shortner.studio.lyzr.ai/{short_id}",
+    "url_extraction_regex": "https://url-shortner\\.studio\\.lyzr\\.ai/[a-zA-Z0-9]+",
+    "markdown_link_extraction_regex": "\\[([^\\]]+)\\]\\((https://url-shortner\\.studio\\.lyzr\\.ai/[a-zA-Z0-9]+)\\)"
+  },
+  "ui_mapping_hints": {
+    "primary_display": "raw_text - Render as markdown to make the download link clickable",
+    "download_button_url": "Extract URL from raw_text using regex pattern",
+    "file_type": "PPTX (PowerPoint)",
+    "suggested_ui_components": [
+      "Markdown renderer for the response text",
+      "Dedicated download button linking to the extracted URL",
+      "File icon indicator showing PPTX file type"
+    ],
+    "response_is_not_json": true,
+    "response_is_plain_text": true,
+    "no_module_outputs_array": true
+  },
+  "notes": "This is a FILE OUTPUT agent. The response comes back as plain text (not structured JSON with status/result/metadata). The raw_text contains a markdown-formatted download link to a shortened URL (https://url-shortner.studio.lyzr.ai/0cd23cc7) that points to the generated PPTX file. The UI should: (1) render the text as markdown so the link is clickable, OR (2) parse out the URL and render a dedicated download button. There is NO module_outputs array in the actual response - the file URL is embedded in the text response itself.",
+  "status": "passed",
+  "timestamp": "2026-02-09T15:44:19.311162"
+}
